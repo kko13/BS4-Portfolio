@@ -1,0 +1,9 @@
+/* Move main content down to accompany fixed navbar */
+body {
+    padding-top: 3.5rem;
+}
+
+.card {
+    padding-left: 0px;
+    padding-right: 0px;
+}
