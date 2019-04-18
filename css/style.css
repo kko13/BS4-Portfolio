@@ -3,6 +3,10 @@ body {
     padding-top: 3.5rem;
 }
 
+.card-img {
+    width: 75%;
+}
+
 .card {
     padding-left: 0px;
     padding-right: 0px;
