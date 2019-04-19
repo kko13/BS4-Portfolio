@@ -1,3 +1,7 @@
+html {
+    overflow: hidden;
+}
+
 /* Move main content down to accompany fixed navbar */
 body {
     padding-top: 3.5rem;
