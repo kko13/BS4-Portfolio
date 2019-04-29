@@ -50,18 +50,21 @@
     </nav>
 
     <!-- Main jumbotron -->
-    <div class="jumbotron mb-0">
-        <div class="container">
+    <div class="jumbotron jumbotron-fluid row mb-0 p-5">
+        <div class="container col my-auto text-center">
             <h1 class="display-2">Portfolio</h1>
             <p>Portfolio basic layout built from jumbotron template.</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
+        <div class="container-fluid col my-auto text-right">
+            <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="kurtis-odom-588271143"><a class="LI-simple-link" href='https://www.linkedin.com/in/kurtis-odom-588271143?trk=profile-badge'>Kurtis Odom</a></div>
         </div>
     </div>
 
     <!-- Card containers for project links/examples -->
     <div class="container-fluid text-center pt-3 pb-3 bg-dark">
         <div class="row card-deck">
-            <div class="card mr-2 ml-2">
+            <div class="card">
                 <div class="card-header">
                     <h3 class="card-title ">Web</h3>
                 </div>
@@ -75,7 +78,7 @@
                     <a class="card-link col-12 btn btn-primary" href="https://kko13.github.io/OdomRacing/" role="button">View details &raquo;</a>
                 </div>
             </div>
-            <div class="card mr-2 ml-2">
+            <div class="card">
                 <div class="card-header">
                     <h3 class="card-title">Python</h3>
                 </div>
@@ -88,7 +91,7 @@
                     <a class="card-link col-12 btn btn-primary" href="#" role="button">View details &raquo;</a>
                 </div>
             </div>
-            <div class="card mr-2 ml-2">
+            <div class="card">
                 <div class="card-header">
                     <h3 class="card-title">Java</h3>
                 </div>
@@ -116,6 +119,8 @@
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- LinkedIn Badge script -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
 
 </html>
