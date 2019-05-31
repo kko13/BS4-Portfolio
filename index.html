@@ -24,37 +24,40 @@
 
 <body class="bg-primary">
     <!-- Navbar Content -->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary">
-        <a class="navbar-brand" href="#">
-            <img class="img-fluid" src="images/CustomLogo-Logaster.png" alt="KO">
-        </a>
-
-        <!-- Navbar Toggle -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Collapsable Navbar Content -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <a class="nav-item nav-link" style="color: black;" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" style="color: black;" href="#">About</a>
-                <a class="nav-item nav-link" style="color: black;" href="#">Resume</a>
-                <a class="nav-item dropdown nav-link dropdown-toggle" style="color: black;" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" style="color: black;" href="#">Example 1</a>
-                    <a class="dropdown-item" style="color: black;" href="#">Example 2</a>
-                    <a class="dropdown-item" style="color: black;" href="#">Example 3</a>
-                </div>
-            </ul>
+    <header class="container">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary">
             
-            <!-- Search box and button in navbar -->
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn my-2 my-sm-0" style="color:black; border-color: black;" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="images/CustomLogo-Logaster.png" alt="KO">
+            </a>
+    
+            <!-- Navbar Toggle -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Collapsable Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <a class="nav-item nav-link" style="color: black;" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" style="color: black;" href="#">About</a>
+                    <a class="nav-item nav-link" style="color: black;" href="docs/ResumeOdomDocx.pdf">Resume</a>
+                    <a class="nav-item dropdown nav-link dropdown-toggle" style="color: black;" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" style="color: black;" href="#">Example 1</a>
+                        <a class="dropdown-item" style="color: black;" href="#">Example 2</a>
+                        <a class="dropdown-item" style="color: black;" href="#">Example 3</a>
+                    </div>
+                </ul>
+                
+                <!-- Search box and button in navbar -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn my-2 my-sm-0" style="color:black; border-color: black;" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
 
     <!-- Main jumbotron -->
     <div class="jumbotron jumbotron-fluid mb-0 p-5 bg-dark">
@@ -108,9 +111,10 @@
                         <h3 class="card-title">Java</h3>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-subtitle">Project 3</h5>
+                        <h5 class="card-subtitle">Tic-Tac-No</h5>
+                        <img class="card-img" src="images/TicTacNo-Logo.png">
                         <br>
-                        <p class="card-text">Short description of Project 3.</p>
+                        <p class="card-text">Tic-Tac-Toe that can be played solo, with a friend, or even an unbeatable computer</p>
                     </div>
                     <div class="card-footer">
                         <a class="card-link col-12 btn btn-primary" href="#" role="button">View details &raquo;</a>
@@ -123,7 +127,7 @@
     
 
     <!-- Footer container -->
-    <footer class="container-fluid"style="color: black;" >
+    <footer class="container-fluid" style="color: black;">
         <hr>
         <p>&copy; Kurtis Odom 2019</p>
     </footer>

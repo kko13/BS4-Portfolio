@@ -1,0 +1,12 @@
+# Blacklist
+
+*.[oa]
+*.vscode
+.*
+~*
+
+# Whitelist
+
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
